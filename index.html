@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f1f0ec">
+  <meta name="description" content="An independent, editorial gaming hardware showcase inspired by the GIGABYTE and AORUS ecosystem.">
+  <title>Beyond Limits — Gaming Hardware, Reframed</title>
+  <link rel="stylesheet" href="/src/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800;900&family=DM+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header"><div class="container header-row">
+    <a class="brand" href="#home" aria-label="GIGABYTE concept home">GIGA<span>BYTE</span><i>®</i></a>
+    <nav class="nav" id="nav" aria-label="Main navigation"><a href="#build-planner">Build planner</a><a href="#story">The build</a><a href="#components">Components</a><a href="#catalog">Catalog</a><a href="#tech">Technology</a></nav>
+    <a class="nav-action" href="#build-planner">Find your setup <span>↘</span></a>
+    <button class="menu" aria-label="Open menu" aria-expanded="false" aria-controls="nav">☰</button>
+  </div></header>
+  <main id="home">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-photo">
+        <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="/images/hardware-editorial.jpg" aria-label="Editorial video of a gaming PC with RGB lighting, not a GIGABYTE product">
+          <source src="https://videos.pexels.com/video-files/33356261/14203515_2560_1440_25fps.mp4" type="video/mp4">
+          <source src="https://videos.pexels.com/video-files/5466792/5466792-hd_1920_1080_30fps.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="hero-grain"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <div class="overline"><span class="dot"></span> INDEPENDENT HARDWARE CULTURE / VOL. 01</div>
+          <h1 id="hero-title">DON'T JUST<br>PLAY. <em>ARRIVE.</em></h1>
+          <p>Built for the late-night queue, the clean setup, and that one more match. This is gaming hardware, seen from a different angle.</p>
+          <div class="hero-buttons"><a class="button button-orange" href="#build-planner">Build planner <span>↘</span></a><a class="button button-glass" href="#catalog">Browse the lineup <span>↗</span></a></div>
+        </div>
+        <div class="hero-rail"><span>01</span><i></i><span>SCROLL TO ENTER</span></div>
+        <div class="hero-side-note">PERFORMANCE<br>HAS A FEELING.</div>
+        <div class="hero-caption"><span>THE NIGHT SHIFT / HARDWARE STUDY</span><span>VISUAL REFERENCE · NOT A SPECIFIC PRODUCT</span></div>
+      </div>
+      <div class="hero-stamp" aria-hidden="true"><span>BUILT<br>DIFFERENT</span><b>↘</b></div>
+    </section>
+
+    <section class="manifesto"><div class="container manifesto-grid"><p class="overline dark-overline">A DIFFERENT KIND OF BUILD GUIDE</p><h2>THE SETUP IS<br><span>THE MAIN CHARACTER.</span></h2><div class="manifesto-bottom"><p>Hardware is more than a spec sheet. It is the space you make your own, the ritual before the match, the details you notice at 2AM.</p><span class="manifesto-index">AORUS-INSPIRED / NOT OFFICIAL</span></div><span class="manifesto-number">01 <i>/</i> 04</span></div></section>
+
+    <section class="story" id="story">
+      <div class="story-shell"><div class="container story-launch"><div class="story-launch-copy"><p class="overline"><span class="dot"></span> MEET THE BUILD / 01—04</p><h2>DESIGNED TO<br><em>MOVE YOU.</em></h2><p>Hardware should feel intentional. Explore the details, then find the parts that fit your own setup.</p><a class="button button-orange" href="#components">Explore the build <span>↘</span></a><span class="launch-scroll">SCROLL TO REVEAL THE BUILD ↓</span></div><div class="model-stage" id="model-stage" aria-label="Interactive 3D concept gaming PC"><canvas id="pc-canvas" aria-label="3D computer concept. Drag to rotate." role="img"></canvas><div class="model-loading" id="model-loading">ASSEMBLING CONCEPT / PLEASE WAIT</div><div class="model-callout callout-gpu">01 / GRAPHICS<span></span></div><div class="model-callout callout-cooling">02 / THERMALS<span></span></div><div class="model-callout callout-platform">03 / PLATFORM<span></span></div><div class="model-caption"><span>GENERATIVE 3D CONCEPT / NOT A PRODUCT MODEL</span><span>DRAG TO ROTATE ↗</span></div><div class="model-controls" aria-label="Model controls"><button type="button" id="model-rotate-left" aria-label="Rotate model left">↶</button><button type="button" id="model-rotate-right" aria-label="Rotate model right">↷</button><button type="button" id="model-reset" aria-label="Reset model view">RESET</button></div></div><div class="story-launch-meta"><span>INDEPENDENT CREATIVE CONCEPT / NOT OFFICIAL</span><span>01 — 04</span></div></div></section>
+
+    <section class="component-section section-pad" id="components" aria-labelledby="components-title"><div class="container">
+      <div class="section-head"><div><p class="overline dark-overline">PICK YOUR PLAYER</p><h2 id="components-title">WHAT'S IN<br><em>YOUR BUILD?</em></h2></div><p class="section-lead">Tap a component. Get the vibe. Then head to the official catalog for the details that actually matter.</p></div>
+      <div class="component-scroll-story" id="component-scroll-story"><div class="component-explorer"><div class="component-tabs" id="component-tabs" role="tablist" aria-label="Choose a hardware category" aria-orientation="vertical"></div><div class="component-stage" id="component-stage"><div class="component-photo" id="component-photo" role="img" aria-label="Editorial reference image of hardware"></div><div class="component-gradient"></div><span class="component-label" id="component-label">01 / VISUAL STUDY</span><div class="component-hotspot" id="component-hotspot" aria-hidden="true"><span class="hotspot-pulse"></span><span class="hotspot-line"></span><span class="hotspot-dot"></span><span class="hotspot-tag" id="hotspot-tag">GPU / DETAIL</span></div><div class="component-index-mark"><span>HARDWARE STUDY</span><span id="component-scene-count">01—07</span></div><article class="component-panel"><span class="card-kicker" id="component-kicker">GRAPHICS / VISUAL REFERENCE</span><h3 id="component-name">Graphics<br>cards.</h3><p id="component-copy">A visual study of the hardware that draws the world. Image shown is editorial reference, not a GIGABYTE product.</p><a class="card-link" id="component-url" href="https://www.gigabyte.com/Graphics-Card" target="_blank" rel="noopener noreferrer">Explore graphics cards <span>↗</span></a></article><div class="component-controls"><button type="button" id="component-prev" aria-label="Previous component">← <span>PREV</span></button><button type="button" id="component-next" aria-label="Next component"><span>NEXT</span> →</button></div></div></div></div>
+      <p class="photo-disclaimer">Photography is used for mood and visual context only. It may show products from other brands and is not presented as GIGABYTE hardware.</p>
+    </div></section>
+
+    <section class="build-planner section-pad" id="build-planner" aria-labelledby="planner-title"><div class="container"><div class="section-head"><div><p class="overline dark-overline">A PRACTICAL STARTING POINT</p><h2 id="planner-title">PLAN YOUR<br><em>BUILD.</em></h2></div><p class="section-lead">Choose a starting budget and see a sample parts plan, availability links, and the compatibility checks to make before buying.</p></div><div class="planner-controls"><label for="budget-select">Budget range</label><div class="budget-cards" role="group" aria-label="Select your PC build budget"><button type="button" class="budget-card selected" data-budget="entry" aria-pressed="true"><span>01 / STARTER</span><b>₹58k–₹85k</b><small>1080p gaming</small></button><button type="button" class="budget-card" data-budget="mid" aria-pressed="false"><span>02 / SWEET SPOT</span><b>₹92k–₹1.47L</b><small>1440p-ready balance</small></button><button type="button" class="budget-card" data-budget="high" aria-pressed="false"><span>03 / ENTHUSIAST</span><b>₹1.58L–₹3.46L+</b><small>High-end gaming / creator</small></button></div><select id="budget-select" aria-label="Select budget"><option value="entry">Starter build</option><option value="mid">Sweet spot build</option><option value="high">Enthusiast build</option></select><p class="planner-disclaimer">India planning estimates in INR, not live quotes. Retailer pricing and stock change; ranges vary by model and location. Excludes monitor, peripherals, Windows, and assembly. Verify the exact parts before purchase.</p><div class="planner-progress" aria-live="polite"><span>YOUR BUILD TIER</span><b id="planner-tier-label">STARTER / 1080P</b><i><em id="planner-progress-fill"></em></i><small>Choose a tier to update the parts list</small></div></div><div class="planner-build-head"><div><span class="planner-build-kicker">THE LINEUP / 07 COMPONENTS</span><h3>Seven parts.<br><em>One direction.</em></h3></div><p>Think of this as a curated starting loadout. Open any card for the fit-check, then browse listings to compare exact models.</p></div><div class="planner-mobile" id="planner-mobile" aria-live="polite"></div><aside class="planner-total-card" aria-live="polite"><span>ESTIMATED BUILD RANGE</span><strong id="planner-total">—</strong><small>Parts only · before tax, shipping &amp; peripherals</small><div class="planner-total-mark" aria-hidden="true">₹</div></aside></div></section>
+
+    <section class="feature-story"><div class="feature-photo"></div><div class="feature-shade"></div><div class="container feature-layout"><div class="feature-top"><span class="overline"><span class="dot"></span> THE HARDWARE SIDE QUEST</span><span class="feature-number">02 — PERFORMANCE IS PERSONAL</span></div><div class="feature-copy"><p class="overline">NO ONE-CLICK META</p><h2>BUILD A<br>FEELING.<br><em>NOT A CHECKLIST.</em></h2><p>Fast graphics are one part of the story. Thermals, platform, memory, storage, and the room around it all shape the experience.</p><a class="button button-orange" href="#tech">Get into the details <span>↘</span></a></div><div class="feature-bottom"><span>VISUAL REFERENCE / EDITORIAL HARDWARE</span><span>03 — 04</span></div></div></section>
+
+    <section class="technology section-pad" id="tech"><div class="container"><div class="section-head"><div><p class="overline dark-overline">THE GOOD STUFF, EXPLAINED</p><h2>THE SPECS<br>HAVE <em>LORE.</em></h2></div><p class="section-lead">Quick, honest notes on what the parts do. For exact features, check the specific product page before you buy.</p></div><div class="tech-list"><article><span>01</span><div><h3>Graphics</h3><p>Turns game data into the images you see. The right choice depends on your games, display, and budget.</p></div><b>↗</b></article><article><span>02</span><div><h3>Cooling</h3><p>Moves heat away from components. Airflow is a whole-case decision, not just a fan-count contest.</p></div><b>↗</b></article><article><span>03</span><div><h3>Motherboard</h3><p>Connects the system and sets platform compatibility. Always verify socket, memory, and expansion support.</p></div><b>↗</b></article><article><span>04</span><div><h3>Memory + storage</h3><p>Memory supports active work. SSDs keep games and files ready to load. Capacity and compatibility depend on the build.</p></div><b>↗</b></article></div></div></section>
+
+    <section class="catalog section-pad" id="catalog"><div class="container"><div class="section-head catalog-head"><div><p class="overline">GO DOWN THE RABBIT HOLE</p><h2>FIND YOUR<br><em>NEXT OBSESSION.</em></h2></div><p class="section-lead">A curated doorway into the GIGABYTE ecosystem. No fake prices. No pretend specs. Just the official categories, ready to explore.</p></div><div class="catalog-grid" id="catalog-grid"></div></div></section>
+
+    <section class="final-cta"><div class="final-image"></div><div class="final-shade"></div><div class="container final-inner"><p class="overline"><span class="dot"></span> THIS IS YOUR SIGN</p><h2>YOUR NEXT<br>LEVEL IS<br><em>PERSONAL.</em></h2><p>Find your starting point. Build the setup you actually want to come home to.</p><div class="hero-buttons"><a class="button button-orange" href="#build-planner">Plan your build <span>↘</span></a><a class="button button-glass" href="#catalog">Explore products <span>↗</span></a></div><span class="final-caption">INDEPENDENT CREATIVE CONCEPT / NOT AFFILIATED WITH GIGABYTE</span></div><div class="final-orbit" aria-hidden="true">GG<span>↗</span></div></section>
+  </main>
+  <footer class="footer"><div class="container"><div class="footer-top"><a class="brand" href="#home">GIGA<span>BYTE</span><i>®</i></a><p>Not an official GIGABYTE website. This independent concept is made for the love of good hardware and better setups.</p><nav><a href="https://www.gigabyte.com/" target="_blank" rel="noopener noreferrer">Official site ↗</a><a href="https://www.gigabyte.com/Support" target="_blank" rel="noopener noreferrer">Support ↗</a><a href="#build-planner">Build planner ↘</a></nav></div><div class="footer-bottom"><span>© 2026 INDEPENDENT CONCEPT STUDY</span><span>ALL PRODUCT MARKS BELONG TO THEIR OWNERS</span><a href="#home">BACK TO TOP ↑</a></div></div></footer>
+  <script type="module" src="/src/js/main.js"></script>
+</body>
+</html>
